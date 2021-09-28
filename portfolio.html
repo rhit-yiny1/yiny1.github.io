@@ -6,9 +6,18 @@
     <title>Portfolio Page</title>
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/main.css" />
-    <link rel="icon" href="images/favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="manifest" href="site.webmanifest" />
   </head>
   <body id="Portfolio">
+    <header>
+      <div class="triggerElement">
+      <h1>Andy Yin</h1>
+      </div>
+    </header>
       <nav>
           <ul>
               <li><a href="index.html">About</a></li>
@@ -21,19 +30,19 @@
       <ul id="portfolioItems">
           <li>
               <h2><a href="a">VR Game Design</h2>
-                <img src="images/portfolio/project1.jpg" width=250 height=250>
+                <img src="images/portfolio/project1.jpg" alt="A screenshot of the game developing process in UE4, summer 2018" height=250>
               <p>I participated in a summer group project in 2019. We made a VR game using Unreal Engine 4.</p>
             </li>
 
             <li>
                 <h2><a href="a">Java DND Game</h2>
-                    <img src="images/portfolio/project2.png" width=250 height=250>
+                    <img src="images/portfolio/project2.JPG" alt="Concept art about the game" height=250 width =333.328>
                 <p>Back in high school, me and a group of CS students got together and made a DnD-style game using only printing functions in Java.</p>
                 </li>
 
             <li>
                 <h2><a href="a">Guitar Recording</h2>
-                    <img src="images/portfolio/project3.jpg" width=250 height=250>
+                    <img src="images/portfolio/project3.jpg" alt="A photo of my personal guitar collection and some gears" height=250>
                 <p>As a music player, I've remixed and re-recorded many songs with guitars. I would make changes to riffs and solos.</p>
                 </li>
       </ul>
@@ -42,5 +51,7 @@
         Email me at yiny1@rose-hulman.edu
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/scrollmagic/minified/ScrollMagic.min.js"></script>
+    <script src="scripts/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
   </body>
 </html>
